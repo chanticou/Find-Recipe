@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*container all*/
+.container-all {
+    background-color: rgb(8, 8, 8);
+    opacity: .9;
+    width: 100%;
+    height: 100%;
+    ;
+}
+
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: silver;
+    padding: 15px;
+}
+
+/*input*/
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    padding: 20px;
+    border-radius: 4px;
+    width:30%;
+}
+
+
+form input {
+    padding: 10px 70px 10px 70px;
+    max-width: 90%;
+    margin: auto;
+    outline: none;
+    font-size: 1rem;
+    cursor:context-menu;
+
+}
+
+
+.icon-search{
+    color:white;
+    font-size: 2rem;
+
+}
+
+
+/*IMagenes*/
+
+.search-result {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    margin: auto;
+    width: 100%;
+    object-fit: contain;
+}
+
+.item {
+    background-color: rgb(15, 15, 15);
+    padding: 20px 20px 40px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    object-fit: contain;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    min-width:100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+.title , .description{
+    color: whitesmoke;
+    text-align: justify;
+    margin: auto;
+}
+
+/*BUtton*/
+.content-buttom{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+}
+
+.view-recipe{
+    background-color: whitesmoke;
+    color:black;
+    font-size:1rem;
+    font-weight: bold;
+    padding:5px 10px;
+    border:none;
+
+}
+.view-recipe:hover{
+    background:black;
+    color: whitesmoke;
+
+}
+
+
+
